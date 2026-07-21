@@ -201,20 +201,3 @@ footer {
   color: var(--white);
   background-color: var(--dark);
 }
-
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  ul {
-    flex-direction: column;
-  }
-}
